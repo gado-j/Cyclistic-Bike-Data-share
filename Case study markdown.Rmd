@@ -17,13 +17,13 @@ This analysis is for case study 1 from the Google Data Analytics Certificate (Cy
 
 We will be using the Divvy dataset for the case study. The purpose of this script is to consolidate downloaded Divvy data into a single dataframe and then conduct simple analysis to help answer the key question: "In what ways do members and casual riders use Divvy bikes differently?"
 
-*Required packages* The following packages will be required for the analysis : 1. tidyverse for data import and wrangling 2. lubridate for date functions 3. ggplot for visualization
+*Required packages* The following packages will be required for the analysis : 
 
-```{r}
-install.packages("tidyverse")
-install.packages("lubridate")
-install.packages("ggplot2")
-```
+1. tidyverse for data import and wrangling 
+
+2. lubridate for date functions 
+
+3. ggplot for visualization
 
 *load packages*
 
