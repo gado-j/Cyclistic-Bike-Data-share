@@ -143,7 +143,7 @@ table(all_trips$usertype)
 
 # it shows that there are   880637-Customer, 2937367-Subscriber 
 
-# Reassign to the desired values (we will go with "mmeber" and "casual")
+# Reassign to the desired values (we will go with "member" and "casual")
 all_trips <-  all_trips %>% 
   mutate(usertype = recode(usertype
                                 ,"Subscriber" = "member"
@@ -274,4 +274,12 @@ all_trips_v2 %>%
   ggplot(aes(x = weekday, y = average_duration, fill = usertype)) +
   geom_col(position = "dodge")
 ```
+
+## Summary Of Analysis
+
+This section presents a comprehensive summary of our analysis. On average, casual riders demonstrate a notably higher frequency of bike rides when compared to members. Furthermore, casual riders embark on substantially longer bike rides in comparison to their member counterparts. These findings underscore the distinct usage patterns between casual riders and members within the Cyclistic 2019 rides dataset.
+
+## Recommendations
+
+Recommendations will be properly given after complete analysis, this document contains analysis which is meant to simply show the difference between casual riders and member riders.
 
